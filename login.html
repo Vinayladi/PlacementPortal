@@ -1,0 +1,73 @@
+<html>
+<head>
+  <link href="assets/css/login.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body style="background-image:url('assets/img/blog/login.jfif') ">
+	<div class="nav">
+
+
+      <nav id="navbar" class="navbar">
+      	<ul>
+      	<li> <h1 class="logo me-auto" style="float: left;"><a href="index.html">Get Placed</a></h1></li>
+       
+          <li><a href="index.html" class="active">Home</a></li>
+
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul style="background-color: white;">
+              <li><a href="about.html">About</a></li>
+              <li><a href="team.html">Team</a></li>
+
+              </li>
+            </ul>
+          </li>
+          <li><a href="placements.html">Placements</a></li>
+          
+          <li><a href="Campus Drives.html">Campus  Drives</a></li>
+
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html" class="getstarted">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+	
+  <div class="container right-panel-active">
+  <!-- Sign Up -->
+	<div class="container__form container--signup">
+		<form action="#" class="form" id="form1">
+			<h2 class="form__title">Sign Up</h2>
+			<input type="text" placeholder="User" class="input" id="x" />
+			<input type="email" placeholder="Email" class="input"  id="y"/>
+			<input type="password" placeholder="Password" class="input" id="z" />
+			<button class="btn">Sign Up</button>
+		</form>
+	</div>
+
+	<!-- Sign In -->
+	<div class="container__form container--signin">
+		<form action="#" class="form" id="form2">
+			<h2 class="form__title">Sign In</h2>
+			<input type="email" placeholder="Email" class="input" id="a" />
+			<input type="password" placeholder="Password" class="input" id="b" />
+			<a href="#" class="link">Forgot your password?</a>
+			<button class="btn" onclick="set()">Sign In</button>
+		</form>
+	</div>
+
+	<!-- Overlay -->
+	<div class="container__overlay">
+		<div class="overlay">
+			<div class="overlay__panel overlay--left">
+				<button class="btn" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay__panel overlay--right">
+				<button class="btn" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="./assets/js/login.js"></script>
+</body>
+</html>
